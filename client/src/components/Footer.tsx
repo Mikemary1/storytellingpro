@@ -36,13 +36,6 @@ export default function Footer() {
                 <i className="fab fa-linkedin mr-2"></i>
                 LinkedIn Profile
               </a>
-              <a 
-                href="mailto:mike@saverbehaviour.co.uk?subject=Speaking Enquiry"
-                className="flex items-center hover:text-gold transition-colors text-sm"
-              >
-                <i className="fas fa-microphone mr-2"></i>
-                Speaking Enquiries
-              </a>
               <a
                 href="https://x.com/mlegassick_ifa"
                 target="_blank"
@@ -51,6 +44,13 @@ export default function Footer() {
               >
                 <i className="fab fa-twitter mr-2"></i>
                 Follow on X
+              </a>
+              <a 
+                href="mailto:mike@saverbehaviour.co.uk?subject=Speaking Enquiry"
+                className="flex items-center hover:text-gold transition-colors text-sm"
+              >
+                <i className="fas fa-microphone mr-2"></i>
+                Speaking Enquiries
               </a>
             </div>
           </motion.div>
