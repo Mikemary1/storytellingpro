@@ -102,8 +102,8 @@ export default function BookPreview() {
                       Welcome to the intriguing realm of financial storytelling—a place where transformative client relationships await those ready to master the art of narrative. This guide equips both newly qualified and experienced financial advisers with the tools needed to excel beyond the numbers.
                     </p>
 
-                    <div className="border-l-4 border-gold pl-6 bg-gold bg-opacity-5 py-4 rounded-r-lg my-8">
-                      <p className="text-navy font-medium italic">
+                    <div className="bg-gold bg-opacity-10 border border-gold border-opacity-20 rounded-lg py-6 my-8 text-center">
+                      <p className="text-navy font-medium text-lg px-6">
                         "Clients make decisions based on stories they can see themselves in, not spreadsheets they can barely decipher."
                       </p>
                     </div>
