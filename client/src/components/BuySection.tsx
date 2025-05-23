@@ -42,7 +42,7 @@ export default function BuySection() {
               <i className="fas fa-book text-gold text-4xl mb-4"></i>
               <h3 className="font-playfair text-2xl font-semibold text-navy mb-4">Print Edition</h3>
               <p className="text-gray-600 mb-6">Premium hardcover with elegant design</p>
-              <p className="text-3xl font-bold text-navy mb-6">£24.99</p>
+              <p className="text-3xl font-bold text-navy mb-6">£14.99</p>
               <motion.button
                 onClick={() => handlePurchase("print")}
                 className="btn-gold text-navy font-semibold py-3 px-6 rounded-lg w-full"
@@ -64,7 +64,7 @@ export default function BuySection() {
               <i className="fas fa-tablet-alt text-gold text-4xl mb-4"></i>
               <h3 className="font-playfair text-2xl font-semibold text-navy mb-4">Digital Edition</h3>
               <p className="text-gray-600 mb-6">Instant download, searchable content</p>
-              <p className="text-3xl font-bold text-navy mb-6">£14.99</p>
+              <p className="text-3xl font-bold text-navy mb-6">£5.99</p>
               <motion.button
                 onClick={() => handlePurchase("digital")}
                 className="btn-gold text-navy font-semibold py-3 px-6 rounded-lg w-full"
