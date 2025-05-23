@@ -16,7 +16,7 @@ export default function AboutMike() {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="/attached_assets/YU6E6115.JPG"
+              src="/mike-headshot.jpg"
               alt="Mike LeGassick professional headshot"
               className="w-full max-w-md mx-auto rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300"
             />

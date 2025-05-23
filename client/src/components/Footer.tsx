@@ -43,6 +43,15 @@ export default function Footer() {
                 <i className="fas fa-microphone mr-2"></i>
                 Speaking Enquiries
               </a>
+              <a
+                href="https://x.com/mlegassick_ifa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center hover:text-gold transition-colors text-sm"
+              >
+                <i className="fab fa-twitter mr-2"></i>
+                Follow on X
+              </a>
             </div>
           </motion.div>
 
