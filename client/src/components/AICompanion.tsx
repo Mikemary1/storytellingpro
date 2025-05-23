@@ -32,7 +32,7 @@ export default function AICompanion() {
               The <span className="text-gold">Storyteller's</span> Companion
             </h2>
             
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+            <p className="text-xl text-gray-100 mb-8 leading-relaxed font-medium">
               Your personal AI-powered coaching tool that helps you craft compelling financial stories, 
               practice difficult conversations, and develop your unique storytelling voice.
             </p>
@@ -44,7 +44,7 @@ export default function AICompanion() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-2">Story Generator</h4>
-                  <p className="text-gray-300 text-sm">
+                  <p className="text-gray-100 text-sm font-medium">
                     Input your client scenario and get personalised story suggestions based on the book's framework
                   </p>
                 </div>
@@ -56,7 +56,7 @@ export default function AICompanion() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-2">Conversation Simulator</h4>
-                  <p className="text-gray-300 text-sm">
+                  <p className="text-gray-100 text-sm font-medium">
                     Practice challenging client conversations with AI-powered role-play scenarios
                   </p>
                 </div>
@@ -68,7 +68,7 @@ export default function AICompanion() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-2">Impact Tracker</h4>
-                  <p className="text-gray-300 text-sm">
+                  <p className="text-gray-100 text-sm font-medium">
                     Monitor how your storytelling skills improve client engagement and outcomes
                   </p>
                 </div>
@@ -80,7 +80,7 @@ export default function AICompanion() {
                 <i className="fas fa-key text-gold mr-3"></i>
                 <span className="font-semibold text-white">Exclusive Access</span>
               </div>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-100 text-sm font-medium">
                 Each book includes a unique access code for The Storyteller's Companion. 
                 Available 24/7, continuously updated with new scenarios and features.
               </p>
