@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import bookCover from "@assets/Book cover.jpg";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -53,7 +54,7 @@ export default function Hero() {
           >
             <div className="relative">
               <motion.img
-                src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=800"
+                src={bookCover}
                 alt="The Art of Storytelling for Financial Advisers book cover"
                 className="w-80 h-auto book-shadow rounded-lg"
                 whileHover={{ scale: 1.05 }}
