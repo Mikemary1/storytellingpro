@@ -1,0 +1,95 @@
+I'm creating a premium website for my book titled *The Art of Storytelling for Financial Advisers* by Mike LeGassick. This is not a typical author website — it must look and feel as if it were produced with a £100,000 design budget. 
+
+The tone is professional, polished, intelligent, and modern — yet warm and relatable. This book is aimed at UK-based financial advisers and professionals. Please use UK spelling throughout (e.g., “behaviour”, “specialise”, “organise”, “realise”) and do not use Americanisms like “center”, “analyze”, or the US $ symbol.
+
+---
+
+🎯 **Website Purpose:**
+- To promote the book
+- Share Mike’s story and mission
+- Showcase endorsements from respected UK voices
+- Collect email signups
+- Encourage visitors to buy the book via Amazon or another link
+
+---
+
+🎨 **Design Requirements:**
+- **Style:** Sleek, minimal, premium feel — think Financial Times meets Apple.
+- **Theme:** Deep navy background (`#0b2545`) with gold highlights (`#d4af37`)
+- **Fonts:**
+  - Headings: ‘Merriweather’ or ‘Playfair Display’
+  - Body: ‘Open Sans’ or ‘Source Sans Pro’
+- **Animations:**
+  - Scroll-triggered fade-ins and smooth transitions
+  - Subtle hover animations
+- **No dollar signs or references to US styling. All content and punctuation must conform to UK standards.**
+
+---
+
+📐 **Page Sections & Layout:**
+
+### Hero Header:
+- Full-screen hero with book cover (`book-cover.jpg`)
+- Title: *The Art of Storytelling for Financial Advisers*
+- Subtitle: *Explaining Money Like a Human — Transforming Jargon into Stories Clients Never Forget*
+- Call-to-action: gold “Buy the Book” button scrolls to Buy section
+
+### Sticky Navigation:
+- Transparent to solid on scroll
+- Sections: Home | About | The Book | Endorsements | Contact
+- Smooth scrolling between sections
+
+### About Mike:
+- Left-aligned photo (`headshot.jpg`)
+- Text: 
+  > Mike LeGassick is a UK-based financial life planner and behavioural investment coach with over 30 years of experience. He helps clients focus on what really matters — not just money, but peace of mind. Mike simplifies complex financial concepts using stories and analogies that clients remember and relate to.
+
+### About the Book:
+- 2-column layout
+- Book cover mock-up and description:
+  > This book shows financial advisers how to communicate complex advice clearly. Using behavioural science, stories, and analogies, it teaches advisers to build trust and help clients act with confidence — without jargon or lectures.
+
+### Testimonials:
+- 4 quotes in elegant testimonial blocks or carousel:
+  - Robin Powell: “Storytelling is a hugely undervalued skill in financial planning…”
+  - Alan Smith
+  - Andy Hart
+  - Ian McKenna
+
+### Mailing List:
+- Full-width block with gold text on navy background
+- Signup form with email + “Join the Movement” button
+- Placeholder form for Mailchimp (no working API needed yet)
+
+### Footer:
+- Clean footer with:
+  - Email: mike@saverbehaviour.co.uk
+  - LinkedIn: https://www.linkedin.com/in/mike-legassick-manning-and-company/
+  - Copyright © 2025 Mike LeGassick
+
+---
+
+📦 **Assets Already Uploaded:**
+- `index.html`
+- `book-cover.jpg`
+- `headshot.jpg`
+
+---
+
+⚙️ **Functionality Expectations:**
+- Fully responsive design
+- Proper HTML/CSS file separation
+- Clean file structure
+- UK spellings throughout — no US-style punctuation, dollar symbols, or terminology
+- All link and button text should sound natural to a UK audience
+
+---
+
+💡 **Bonus Ideas (optional):**
+- Add scroll-based animations or a parallax book mock-up
+- Use icons for ideas like “Clarity”, “Simplicity”, “Trust” if appropriate
+- Optional section for a sample chapter download (can be added later)
+
+---
+
+This should be a premium-quality site for a high-end professional audience, with a tone of calm authority, intelligence, and clarity. Please build it to professional standards and avoid any use of template-style boilerplate content.
