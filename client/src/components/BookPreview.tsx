@@ -62,12 +62,12 @@ export default function BookPreview() {
             </div>
 
             <motion.blockquote 
-              className="border-l-4 border-gold pl-6 bg-gold bg-opacity-10 py-6 rounded-r-lg my-8 text-center"
-              initial={{ opacity: 0, x: -20 }}
-              animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+              className="border-l-4 border-gold bg-gold bg-opacity-10 py-6 rounded-lg my-8 text-center mx-auto"
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <p className="text-navy font-medium italic text-xl">
+              <p className="text-navy font-medium italic text-xl px-6">
                 "Clients make decisions based on stories they can see themselves in, not spreadsheets they can barely decipher."
               </p>
             </motion.blockquote>
