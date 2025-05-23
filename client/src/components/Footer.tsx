@@ -77,7 +77,11 @@ export default function Footer() {
                   className="w-full max-w-[180px] h-auto rounded-lg"
                 />
               </a>
-              <a href="#" className="block hover:text-gold transition-colors">
+              <a 
+                href="mailto:mike@saverbehaviour.co.uk?subject=Speaking Enquiry"
+                className="block hover:text-gold transition-colors"
+              >
+                <i className="fas fa-microphone mr-2"></i>
                 Speaking Enquiries
               </a>
             </div>
