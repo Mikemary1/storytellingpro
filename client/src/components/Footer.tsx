@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import saverBehaviourLogo from "@assets/ChatGPT Image Apr 4, 2025, 03_37_06 PM.png";
+import radioExeBanner from "@assets/RADIO EXE.jpg";
 
 export default function Footer() {
   const ref = useRef(null);
@@ -54,7 +55,7 @@ export default function Footer() {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <h3 className="font-playfair text-2xl font-bold text-gold mb-6">Mike's Other Work</h3>
-            <div className="space-y-3">
+            <div className="space-y-4">
               <a 
                 href="https://www.amazon.co.uk/Mind-Over-Markets-Uncovering-Comfortable/dp/1399975234"
                 target="_blank"
@@ -62,10 +63,19 @@ export default function Footer() {
                 className="block hover:text-gold transition-colors"
               >
                 <i className="fas fa-book mr-2"></i>
-                Mind Over Markets (Amazon)
+                Mind Over Markets (Book)
               </a>
-              <a href="#" className="block hover:text-gold transition-colors">
-                Author Interviews
+              <a 
+                href="https://www.radioexe.co.uk/podcasts/mind-over-markets/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block hover:opacity-80 transition-opacity"
+              >
+                <img 
+                  src={radioExeBanner} 
+                  alt="Mind Over Markets Podcast on Radio Exe"
+                  className="w-full max-w-[180px] h-auto rounded-lg"
+                />
               </a>
               <a href="#" className="block hover:text-gold transition-colors">
                 Speaking Enquiries
