@@ -61,18 +61,6 @@ export default function AICompanion() {
                   </p>
                 </div>
               </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-gold/20 rounded-lg flex items-center justify-center">
-                  <i className="fas fa-chart-line text-gold text-xl"></i>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-navy mb-2">Impact Tracker</h4>
-                  <p className="text-gray-700 text-sm font-semibold">
-                    Monitor how your storytelling skills improve client engagement and outcomes
-                  </p>
-                </div>
-              </div>
             </div>
 
             <div className="mt-8 p-6 bg-gold/10 border border-gold/30 rounded-xl">
