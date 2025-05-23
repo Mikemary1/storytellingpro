@@ -132,8 +132,8 @@ export default function BookPreview() {
                       By hearing his story first, we designed a phased exit that protected his financial needs whilst honouring what truly mattered to him. These examples highlight why we should begin by asking about the person behind the numbers.
                     </p>
 
-                    <div className="border-l-4 border-gold pl-6 bg-gold bg-opacity-10 py-4 rounded-r-lg my-8">
-                      <p className="text-navy font-medium italic">
+                    <div className="bg-gold bg-opacity-10 border border-gold border-opacity-20 rounded-lg py-6 my-8 text-center">
+                      <p className="text-navy font-medium text-lg px-6">
                         "So, before you ever open a spreadsheet or talk about risk, open the floor to their story. Let them feel seen. Let them feel heard. That's where the best financial journeys begin."
                       </p>
                     </div>
