@@ -65,18 +65,24 @@ export default function Footer() {
                 <i className="fas fa-book mr-2"></i>
                 Mind Over Markets (Book)
               </a>
-              <a 
-                href="https://www.radioexe.co.uk/podcasts/mind-over-markets/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block hover:opacity-80 transition-opacity"
-              >
-                <img 
-                  src={radioExeBanner} 
-                  alt="Mind Over Markets Podcast on Radio Exe"
-                  className="w-full max-w-[180px] h-auto rounded-lg"
-                />
-              </a>
+              <div>
+                <p className="text-gray-300 text-sm mb-2">
+                  <i className="fas fa-podcast mr-2"></i>
+                  Mind Over Markets Podcast
+                </p>
+                <a 
+                  href="https://www.radioexe.co.uk/podcasts/mind-over-markets/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:opacity-80 transition-opacity"
+                >
+                  <img 
+                    src={radioExeBanner} 
+                    alt="Mind Over Markets Podcast on Radio Exe"
+                    className="w-full max-w-[180px] h-auto rounded-lg"
+                  />
+                </a>
+              </div>
               <a 
                 href="mailto:mike@saverbehaviour.co.uk?subject=Speaking Enquiry"
                 className="block hover:text-gold transition-colors"
