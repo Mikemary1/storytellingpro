@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import AboutMike from "@/components/AboutMike";
 import AboutBook from "@/components/AboutBook";
 import BookPreview from "@/components/BookPreview";
+import AICompanion from "@/components/AICompanion";
 import Testimonials from "@/components/Testimonials";
 import EmailSignup from "@/components/EmailSignup";
 import BuySection from "@/components/BuySection";
@@ -21,6 +22,7 @@ export default function Home() {
       <AboutMike />
       <AboutBook />
       <BookPreview />
+      <AICompanion />
       <Testimonials />
       <EmailSignup />
       <BuySection />
