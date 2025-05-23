@@ -81,7 +81,8 @@ export default function AICompanion() {
                 <span className="font-semibold text-navy">Exclusive Access</span>
               </div>
               <p className="text-gray-700 text-sm font-semibold">
-                Each book includes a unique access code for The Storyteller's Companion. 
+                Book owners receive complimentary access to The Storyteller's Companion. 
+                Simply email your proof of purchase to receive your personal access code.
                 Available 24/7, continuously updated with new scenarios and features.
               </p>
             </div>
