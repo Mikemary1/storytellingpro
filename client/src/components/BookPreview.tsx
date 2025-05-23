@@ -84,10 +84,11 @@ export default function BookPreview() {
                     Read Full Introduction
                   </motion.button>
                 </DialogTrigger>
-                <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+                <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto" aria-describedby="introduction-description">
                   <DialogHeader>
                     <DialogTitle className="font-playfair text-2xl text-navy">Introduction</DialogTitle>
                   </DialogHeader>
+                  <p id="introduction-description" className="sr-only">Read the full introduction to The Art of Storytelling for Financial Advisers</p>
                   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6 mt-6">
                     <h4 className="font-playfair text-xl text-gold font-semibold italic">
                       Explaining Money Like a Human — Transforming Jargon into Stories Clients Never Forget
@@ -115,10 +116,10 @@ export default function BookPreview() {
                       For most clients, financial planning transcends the mere accumulation of wealth. It's the peace stemming from knowing their future is secure. Amidst the jargon and intricacies of financial markets, their predominant concern is not understanding every technical detail—it's the fear of making mistakes, missing opportunities, or running out of money.
                     </p>
 
-                    <div className="bg-navy bg-opacity-5 rounded-2xl p-6 my-8">
+                    <div className="bg-gold bg-opacity-10 border border-gold border-opacity-20 rounded-2xl p-6 my-8">
                       <h5 className="font-playfair text-xl font-semibold text-navy mb-4">Where the Story Truly Begins</h5>
-                      <p className="text-gray-700 italic mb-4">Before you share your advice, listen to their story.</p>
-                      <p>
+                      <p className="text-navy italic mb-4 font-medium">Before you share your advice, listen to their story.</p>
+                      <p className="text-gray-700">
                         When clients walk into your office, they often can't wait to discuss their pension options, ISAs, or money they've inherited. But in these moments, your job isn't to jump straight into the numbers — it's to help them take a breath, slow things down, and gently take control of the meeting.
                       </p>
                     </div>
@@ -131,7 +132,7 @@ export default function BookPreview() {
                       By hearing his story first, we designed a phased exit that protected his financial needs whilst honouring what truly mattered to him. These examples highlight why we should begin by asking about the person behind the numbers.
                     </p>
 
-                    <div className="border-l-4 border-navy pl-6 bg-navy bg-opacity-5 py-4 rounded-r-lg my-8">
+                    <div className="border-l-4 border-gold pl-6 bg-gold bg-opacity-10 py-4 rounded-r-lg my-8">
                       <p className="text-navy font-medium italic">
                         "So, before you ever open a spreadsheet or talk about risk, open the floor to their story. Let them feel seen. Let them feel heard. That's where the best financial journeys begin."
                       </p>
