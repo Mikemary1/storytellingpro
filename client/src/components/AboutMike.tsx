@@ -57,6 +57,14 @@ export default function AboutMike() {
               >
                 <i className="fab fa-linkedin text-2xl"></i>
               </a>
+              <a
+                href="https://x.com/mlegassick_ifa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gold hover:text-navy transition-colors"
+              >
+                <i className="fab fa-twitter text-2xl"></i>
+              </a>
             </div>
           </motion.div>
         </div>
