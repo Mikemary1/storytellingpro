@@ -6,22 +6,22 @@ const testimonials = [
   {
     quote: "Storytelling is a hugely undervalued skill in financial planning. Mike's approach transforms the way advisers connect with their clients, making complex financial concepts accessible and memorable.",
     author: "Robin Powell",
-    role: "Financial Journalist & Author"
+    role: "Journalist, Author, and Content Marketing Consultant to Advice Firms"
   },
   {
     quote: "Mike has mastered the art of making financial planning human. This book is essential reading for any adviser who wants to truly connect with their clients and drive meaningful change.",
     author: "Alan Smith",
-    role: "Financial Planning Expert"
+    role: "Founder of Capital Partners; Host – Bulletproof Entrepreneur Podcast; Co-Host – The Real Adviser Podcast"
   },
   {
     quote: "The future of financial advice lies in clear communication and genuine connection. Mike's storytelling methodology provides the roadmap for building those meaningful client relationships.",
     author: "Andy Hart",
-    role: "Behavioural Finance Specialist"
+    role: "Founder of Humans Under Management & Behavioural Finance Advocate"
   },
   {
     quote: "This book bridges the gap between technical expertise and human understanding. Mike's insights will transform how advisers communicate and how clients experience financial planning.",
     author: "Ian McKenna",
-    role: "Financial Technology Expert"
+    role: "Founder & CEO AdviserSoftware.com"
   }
 ];
 
