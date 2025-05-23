@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import AboutMike from "@/components/AboutMike";
 import AboutBook from "@/components/AboutBook";
+import BookPreview from "@/components/BookPreview";
 import Testimonials from "@/components/Testimonials";
 import EmailSignup from "@/components/EmailSignup";
 import BuySection from "@/components/BuySection";
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <AboutMike />
       <AboutBook />
+      <BookPreview />
       <Testimonials />
       <EmailSignup />
       <BuySection />
