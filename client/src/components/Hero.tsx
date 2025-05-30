@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import bookCover from "@assets/book-cover-v2.jpg";
+import bookCoverImage from "@assets/book-cover-v2.jpg";
+
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
