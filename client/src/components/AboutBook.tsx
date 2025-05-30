@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import bookCover from "@assets/Book cover.jpg";
+import bookCoverImage from "@assets/book-cover-v2.jpg";
+
+
 
 export default function AboutBook() {
   const ref = useRef(null);
@@ -44,7 +46,8 @@ export default function AboutBook() {
           >
             <div className="relative">
               <img
-                src={bookCover}
+                <img src={bookCoverImage}
+
                 alt="The Art of Storytelling for Financial Advisers book cover"
                 className="w-full max-w-sm mx-auto book-shadow rounded-lg hover:scale-105 transition-transform duration-300"
               />
